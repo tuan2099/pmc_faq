@@ -1,11 +1,7 @@
-// app/page.tsx
-"use client";
-import { Link } from "@chakra-ui/next-js";
+import Intro from "@/app/components/Intro";
 
-export default function Page() {
-  return (
-    <Link href="/about" color="blue.400" _hover={{ color: "blue.500" }}>
-      About
-    </Link>
-  );
-}
+const Page = () => {
+  return <Intro />;
+};
+
+export default Page;
